@@ -1,15 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Students from './Components/Students';
+import "./App.css";
+import Students from "./Components/Students";
 
 function App() {
   return (
-    
     <>
-    <div class="container">
-      <Students/>
-    </div>
-    
+      <div class="container">
+        <Students />
+      </div>
     </>
   );
 }
